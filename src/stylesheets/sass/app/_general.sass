@@ -3,7 +3,7 @@
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 
-html, body, .w100
+html, body, .wh100
   height: 100vh
   width: 100vw
 
@@ -12,13 +12,19 @@ body
   overflow: auto
   position: relative
   background-color: black
+  text-align: center
+  color: white
   &:before
     content: " "
     background: url("./images/background.jpg") no-repeat center
     background-size: cover
     position: absolute
-    z-index: 1
+    z-index: -1
     height: 100%
     width: 100%
     opacity: .6
+    left: 0
+    top: 0
 
+button
+  cursor: pointer
