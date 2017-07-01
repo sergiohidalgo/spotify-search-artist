@@ -10,9 +10,16 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
+    "dotenv": "^4.0.0",
+    "dotenv-expand": "^4.0.1",
+    "dotenv-webpack": "^1.5.1",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "get-env": "^0.5.10",
+    "node-env-file": "^0.1.8",
     "tether": "^1.4.0",
     "vue": "^2.3.3",
-    "vue-awesome": "^2.3.1"
+    "vue-awesome": "^2.3.1",
+    "vue-router": "^2.7.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
